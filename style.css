@@ -1,0 +1,1623 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Ubuntu:wght@400;500&display=swap');
+:root{
+ --gold : #bd9e61;
+ --grey : #777777;
+ --blue : #2596be;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*first section*/
+.firstContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--grey);
+}
+.transparentLogo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 470px;
+}
+ul li{
+    display: inline-block;
+    padding-left: 80px;
+    position: relative;
+    right: -550px;
+    top: 40px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border: 1px solid var(--gold);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.person5Img{
+    position: absolute; 
+    right: -162px;
+    bottom: -0px;
+}
+.person6Img{
+    position: absolute;
+    right: 10px;
+    bottom: -0px;
+}
+.captionTXT{
+    font-size: 27px;
+    position: relative;
+    top: 230px;
+    left: 80px;   
+    color: white;
+}
+.iamWillionair{
+    font-size: 32px;
+    position: relative;
+    top: 250px;
+    left: 80px; 
+    color: var(--gold);
+}
+/*second section*/
+.secondContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--blue);
+    position: relative;
+}
+.person1Img{
+    position: absolute;
+    left: 20px;
+    top: -70px;
+    width: 600px;
+    height: 800px;  
+}
+/*third section*/
+.thirdContainer{
+   background-color: #777777;
+   width: 100%;
+   height: 100vh;
+}
+.videoH1{
+   color: white;
+   position: relative;
+   top: 20px;
+   text-align: center;
+   font-size: 36px;
+}
+.iframe1{
+    position: absolute;
+    bottom: -920px;
+    left: 300px;
+}
+.iframe2{
+    position: absolute;
+    bottom: -920px;
+    left: 700px;
+}
+.iframe3{
+    position: absolute;
+    bottom: -1180px;
+    left: 300px;
+}
+.iframe4{
+    position: absolute;
+    bottom: -1180px;
+    left: 700px;
+}
+.divFooter{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-color: var(--blue);   
+}
+.studioMan{
+    border-radius: 40px;
+    position: relative;
+    top: 40px;
+    left: 500px;   
+    filter: brightness(50%);
+}
+.glassDrop{
+    padding: 30px;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 720px;
+    height: 550px;
+    -webkit-backdrop-filter: blur(8px);  
+    backdrop-filter: blur(8px); 
+    box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+    background-color: rgba(228 ,228 ,228 ,0.10);
+}
+.h2story{
+    font-size: 3.6vh;
+    color: white;
+}
+.willFooter{
+    position: absolute; 
+    right: -59px;
+    bottom: 0px;
+    width: 350px;
+    height: 350px; 
+}
+.facebook-logo{
+    position: relative;
+    left: 580px;
+    top: 110px;
+}
+.instagram-logo{
+    position: relative;
+    left: 610px;
+    top: 110px;
+}
+.youtube-logo{
+    position: relative;
+    left: 640px;
+    top: 110px;
+}
+.rightTxt{
+    position: absolute;
+    left: 530px;
+    bottom: 25px;
+    color: white;
+}
+
+@media only screen and (min-width: 1269px) and (max-width:1319px){
+    .transparentLogo{
+        position: absolute;
+        bottom: 440px;
+    }
+    ul li{
+        padding-left: 50px;
+        position: relative;
+        right: -650px;
+        top: 40px;
+    }
+
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: 20px;
+        top: -90px; 
+    }
+    /*third section*/
+
+    .facebook-logo{
+        position: relative;
+        left: 580px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 610px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 640px;
+        top: 110px;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 530px;
+        bottom: 25px;
+        color: white;
+    }
+}
+@media only screen and (min-width: 1151px) and (max-width:1268px){
+   
+    .transparentLogo{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        bottom: 440px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 80px;
+        position: relative;
+        right: -350px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        bottom: -0px;
+    }
+    .person6Img{
+        position: absolute;
+        right: 10px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 27px;
+        position: relative;
+        top: 230px;
+        left: 80px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 32px;
+        position: relative;
+        top: 250px;
+        left: 80px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -20px;
+        top: -70px;
+        width: 600px;
+        height: 800px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 200px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -920px;
+        left: 600px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 200px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 600px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 40px;
+        left: 500px; 
+        width: 600px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 40px;
+        left: 500px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 600px;
+        height: 450px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 3.0vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -59px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 480px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 510px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 540px;
+        top: 110px;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 440px;
+        bottom: 25px;
+        color: white;
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1151px){
+    .transparentLogo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 480px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 80px;
+        position: relative;
+        right: -350px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        bottom: -0px;
+    }
+    .person6Img{
+        position: absolute;
+        right: 10px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 25px;
+        position: relative;
+        top: 230px;
+        left: 80px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 32px;
+        position: relative;
+        top: 250px;
+        left: 80px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -20px;
+        top: -70px;
+        width: 600px;
+        height: 800px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 150px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -920px;
+        left: 550px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 150px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 550px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 40px;
+        left: 400px; 
+        width: 600px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 40px;
+        left: 400px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 600px;
+        height: 450px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 3.0vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -59px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 480px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 510px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 540px;
+        top: 110px;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 440px;
+        bottom: 25px;
+        color: white;
+    } 
+}
+/*large devices like laptops*/
+@media only screen and (min-width: 992px) and (max-width: 1099px){
+    .transparentLogo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 480px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 60px;
+        position: relative;
+        right: -250px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        bottom: -0px;
+    }
+    .person6Img{
+        position: absolute;
+        right: 10px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 21px;
+        position: relative;
+        top: 230px;
+        left: 80px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 25px;
+        position: relative;
+        top: 250px;
+        left: 80px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -20px;
+        top: -70px;
+        width: 600px;
+        height: 800px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 100px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -920px;
+        left: 500px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 100px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 500px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 90px;
+        left: 400px; 
+        width: 500px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 90px;
+        left: 400px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 500px;
+        height: 400px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.6vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -49px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 380px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 410px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 440px;
+        top: 110px;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 350px;
+        bottom: 25px;
+        color: white;
+    } 
+}
+    
+/*medium phones*/
+@media only screen and (min-width: 805px) and (max-width: 991px){
+    .transparentLogo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 480px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 40px;
+        position: relative;
+        right: -250px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        width: 400px;
+        height: 500px;
+        bottom: -0px;
+    }
+    .person6Img{
+        width: 500px;
+        height: 450px;
+        position: absolute;
+        right: -1000px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 21px;
+        position: relative;
+        top: 230px;
+        left: 80px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 25px;
+        position: relative;
+        top: 250px;
+        left: 80px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -20px;
+        top: 140px;
+        width: 450px;
+        height: 550px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 50px;
+        width: 300px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -920px;
+        left: 450px;
+        width: 300px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 50px;
+        width: 300px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 450px;
+        width: 300px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 90px;
+        left: 250px; 
+        width: 500px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 90px;
+        left: 250px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 500px;
+        height: 400px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.6vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -49px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 280px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 310px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 340px;
+        top: 110px;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 250px;
+        bottom: 25px;
+        color: white;
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 804px){
+    .transparentLogo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 480px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 40px;
+        position: relative;
+        right: -150px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        bottom: -0px;
+    }
+    .person6Img{
+        position: absolute;
+        right: 1000px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 21px;
+        position: relative;
+        top: 230px;
+        left: 80px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 25px;
+        position: relative;
+        top: 250px;
+        left: 80px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -20px;
+        top: 130px;
+        width: 450px;
+        height: 550px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 100px;
+        max-width: 400px;
+        width: 250px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -920px;
+        left: 400px;
+        max-width: 400px;
+        width: 250px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 100px;
+        max-width: 400px;
+        width: 250px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 400px;
+        max-width: 400px;
+        width: 250px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 90px;
+        left: 250px; 
+        width: 400px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 90px;
+        left: 250px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 400px;
+        height: 300px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.0vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -49px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 280px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 310px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 340px;
+        top: 110px;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 250px;
+        bottom: 25px;
+        color: white;
+    }
+}
+@media only screen and (min-width: 680px) and (max-width: 750px){
+    .transparentLogo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 480px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 30px;
+        position: relative;
+        right: -170px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        bottom: -0px;
+        width: 400px;
+        height: 500px;
+    }
+    .person6Img{
+        position: absolute;
+        right: 1000px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 21px;
+        position: relative;
+        top: 230px;
+        left: 60px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 25px;
+        position: relative;
+        top: 250px;
+        left: 60px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -20px;
+        top: 130px;
+        width: 450px;
+        height: 550px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 80px;
+        max-width: 400px;
+        width: 250px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -920px;
+        left: 350px;
+        max-width: 400px;
+        width: 250px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 80px;
+        max-width: 400px;
+        width: 250px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 350px;
+        max-width: 400px;
+        width: 250px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 130px;
+        left: 250px; 
+        width: 400px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 130px;
+        left: 250px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 400px;
+        height: 300px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.0vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -49px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 180px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 210px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 240px;
+        top: 110px;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 150px;
+        bottom: 25px;
+        color: white;
+    }
+}@media only screen and (min-width: 600px) and (max-width: 680px){
+    .transparentLogo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 480px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 30px;
+        position: relative;
+        right: -140px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        bottom: -0px;
+        width: 400px;
+        height: 500px;
+    }
+    .person6Img{
+        position: absolute;
+        right: 1000px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 21px;
+        position: relative;
+        top: 230px;
+        left: 60px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 25px;
+        position: relative;
+        top: 250px;
+        left: 60px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -2000px;
+        top: 130px;
+        width: 450px;
+        height: 550px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 80px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -920px;
+        left: 350px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 80px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 350px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 50px;
+        left: 100px; 
+        width: 400px;
+        height: 500px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 400px;
+        height: 500px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.7vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -49px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 180px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 210px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 240px;
+        top: 110px;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 150px;
+        bottom: 25px;
+        color: white;
+    }
+}
+/*extra small devices*/
+@media only screen and (min-width: 550px) and (max-width: 599px){
+    .transparentLogo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 480px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 30px;
+        position: relative;
+        right: -140px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 10px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        bottom: -0px;
+        width: 400px;
+        height: 500px;
+    }
+    .person6Img{
+        position: absolute;
+        right: 1000px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 18px;
+        position: relative;
+        top: 230px;
+        left: 60px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 25px;
+        position: relative;
+        top: 250px;
+        left: 60px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -2000px;
+        top: 130px;
+        width: 450px;
+        height: 550px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 50px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -920px;
+        left: 300px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 50px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 300px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 50px;
+        left: 70px; 
+        width: 400px;
+        height: 500px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 400px;
+        height: 500px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.7vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -49px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 150px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 200px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 240px;
+        top: 110px;
+        cursor: pointer;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 120px;
+        bottom: 25px;
+        color: white;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 549px){
+    .transparentLogo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 480px;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 30px;
+        position: relative;
+        right: -110px;
+        top: 40px;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 9px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -162px;
+        bottom: -0px;
+        width: 400px;
+        height: 500px;
+    }
+    .person6Img{
+        position: absolute;
+        right: 1000px;
+        bottom: -0px;
+    }
+    .captionTXT{
+        font-size: 18px;
+        position: relative;
+        top: 230px;
+        left: 60px;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 25px;
+        position: relative;
+        top: 250px;
+        left: 60px; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .person1Img{
+        position: absolute;
+        left: -2000px;
+        top: 130px;
+        width: 450px;
+        height: 550px;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 20px;
+       text-align: center;
+       font-size: 36px;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -920px;
+        left: 50px;
+        max-width: 400px;
+        width: 400px;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -620px;
+        left: 3000px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -1180px;
+        left: 50px;
+        max-width: 400px;
+        width: 400px;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -1180px;
+        left: 3000px;
+        max-width: 400px;
+        width: 200px;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 50px;
+        left: 50px; 
+        width: 400px;
+        height: 500px;  
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        border: 1px solid white;
+        border-radius: 40px;
+        width: 400px;
+        height: 500px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.7vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -49px;
+        bottom: 0px;
+        width: 250px;
+        height: 250px; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 100px;
+        top: 110px;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 150px;
+        top: 110px;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 200px;
+        top: 110px;
+        cursor: pointer;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 90px;
+        bottom: 25px;
+        color: white;
+    }
+}
