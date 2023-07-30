@@ -188,6 +188,11 @@ ul li a{
 }
 
 @media only screen and (min-width: 1269px) and (max-width:1319px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 25%;
         height: 45%;
@@ -357,6 +362,11 @@ ul li a{
     }
 }
 @media only screen and (min-width: 1151px) and (max-width:1268px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 25%;
         height: 45%;
@@ -526,6 +536,11 @@ ul li a{
     }   
 }
 @media only screen and (min-width: 1100px) and (max-width: 1150px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 25%;
         height: 45%;
@@ -696,6 +711,11 @@ ul li a{
 }
 /*large devices like laptops*/
 @media only screen and (min-width: 992px) and (max-width: 1099px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 20%;
         height: 30%;
@@ -866,6 +886,11 @@ ul li a{
 }   
 /*medium phones*/
 @media only screen and (min-width: 805px) and (max-width: 991px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 20%;
         height: 30%;
@@ -1035,6 +1060,11 @@ ul li a{
     }
 }
 @media only screen and (min-width: 750px) and (max-width: 804px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 25%;
         height: 30%;
@@ -1204,6 +1234,11 @@ ul li a{
     }
 }
 @media only screen and (min-width: 680px) and (max-width: 749px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 25%;
         height: 30%;
@@ -1373,6 +1408,11 @@ ul li a{
     }
 }
 @media only screen and (min-width: 600px) and (max-width: 679px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 30%;
         height: 30%;
@@ -1543,6 +1583,11 @@ ul li a{
 }
 /*extra small devices*/
 @media only screen and (min-width: 550px) and (max-width: 599px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 30%;
         height: 25%;
@@ -1713,6 +1758,11 @@ ul li a{
     }
 }
 @media only screen and (min-width: 500px) and (max-width: 549px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 30%;
         height: 25%;
@@ -1885,6 +1935,11 @@ ul li a{
 }
 /*changes for responsive phone */
 @media only screen and (min-width: 450px) and (max-width: 499px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
         width: 30%;
         height: 25%;
@@ -2056,8 +2111,13 @@ ul li a{
     }
 }
 @media only screen and (min-width: 400px) and (max-width: 449px){
+    body{
+        overflow-x: hidden;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
     .transparentLogo{
-        width: 30%;
+        width: 33%;
         height: 25%;
         position: absolute;
         left: -5%;
@@ -2065,9 +2125,9 @@ ul li a{
     }
     ul li{
         display: inline-block;
-        padding-left: 30px;
+        padding-left: 25px;
         position: relative;
-        right: -120px;
+        right: -105px;
         top: 40px;
         cursor: pointer;
     }
@@ -2084,7 +2144,7 @@ ul li a{
         position: absolute; 
         right: -21%;
         bottom: -0%;
-        width: 53%; /*start here*/
+        width: 58%; /*start here*/
         height: 70%;
     }
     .person6Img{
@@ -2137,28 +2197,28 @@ ul li a{
     }
     .iframe1{
         position: absolute;
-        bottom: -150%;
+        bottom: -170%;
         left: 22%;
         height: 34%;
         width: 27%;
     }
     .iframe2{
         position: absolute;
-        bottom: -150%;
+        bottom: -170%;
         left: 53%;
         height: 34%;
         width: 27%;
     }
     .iframe3{
         position: absolute;
-        bottom: -190%;
+        bottom: -210%;
         left: 22%;
         height: 34%;
         width: 27%;
     }
     .iframe4{
         position: absolute;
-        bottom: -190%;
+        bottom: -210%;
         left: 53%;
         height: 34%;
         width: 27%;
@@ -2193,14 +2253,14 @@ ul li a{
         background-color: rgba(228 ,228 ,228 ,0.10);
     }
     .h2story{
-        font-size: 2.3vh;
+        font-size: 1.9vh;
         color: white;
     }
     .willFooter{
         position: absolute; 
         right: -7%;
         bottom: 0%;
-        width: 40%;
+        width: 45%;
         height: 120%; 
     }
     .facebook-logo{
@@ -2220,9 +2280,9 @@ ul li a{
     }
     .rightTxt{
         position: absolute;
-        left: 23%;
+        left: 20%;
         bottom: 9%;
         color: white;
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
 }
