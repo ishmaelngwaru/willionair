@@ -2111,13 +2111,16 @@ ul li a{
     }
 }
 @media only screen and (min-width: 400px) and (max-width: 449px){
+    *{
+        overflow-x:hidden;
+    }
     body{
         overflow-x: hidden;
         font-family: 'Hanken Grotesk', sans-serif;
         font-family: 'Ubuntu', sans-serif;
     }
     .transparentLogo{
-        width: 33%;
+        width: 35%;
         height: 25%;
         position: absolute;
         left: -5%;
@@ -2125,15 +2128,15 @@ ul li a{
     }
     ul li{
         display: inline-block;
-        padding-left: 25px;
+        padding-left: 20px;
         position: relative;
-        right: -105px;
+        right: -100px;
         top: 40px;
         cursor: pointer;
     }
     ul li a{
         text-decoration: none;
-        font-size: 9px;
+        font-size: 8px;
         color: white;
         border: 1px solid var(--gold);
         padding: 7px;
@@ -2145,7 +2148,7 @@ ul li a{
         right: -21%;
         bottom: -0%;
         width: 58%; /*start here*/
-        height: 70%;
+        height: 60%;
     }
     .person6Img{
         position: absolute;
@@ -2197,28 +2200,28 @@ ul li a{
     }
     .iframe1{
         position: absolute;
-        bottom: -170%;
+        bottom: -180%;
         left: 22%;
         height: 34%;
         width: 27%;
     }
     .iframe2{
         position: absolute;
-        bottom: -170%;
+        bottom: -180%;
         left: 53%;
         height: 34%;
         width: 27%;
     }
     .iframe3{
         position: absolute;
-        bottom: -210%;
+        bottom: -220%;
         left: 22%;
         height: 34%;
         width: 27%;
     }
     .iframe4{
         position: absolute;
-        bottom: -210%;
+        bottom: -220%;
         left: 53%;
         height: 34%;
         width: 27%;
@@ -2260,7 +2263,7 @@ ul li a{
         position: absolute; 
         right: -7%;
         bottom: 0%;
-        width: 45%;
+        width: 50%;
         height: 120%; 
     }
     .facebook-logo{
