@@ -21,10 +21,10 @@ body{
     background-color: var(--grey);
 }
 .transparentLogo{
-    width: 200px;
-    height: 200px;
+    width: 25%;
+    height: 45%;
     position: absolute;
-    bottom: 470px;
+    bottom: 65%;
 }
 ul li{
     display: inline-block;
@@ -44,26 +44,30 @@ ul li a{
 }
 .person5Img{
     position: absolute; 
-    right: -162px;
-    bottom: -0px;
+    right: -13%;
+    bottom: -0%;
+    width: 30%;
+    height: 80%;
 }
 .person6Img{
     position: absolute;
-    right: 10px;
-    bottom: -0px;
+    right: -1%;
+    bottom: -0%;
+    width: 40%;
+    height: 80%;
 }
 .captionTXT{
-    font-size: 27px;
+    font-size: 2em;
     position: relative;
-    top: 230px;
-    left: 80px;   
+    top: 35%;
+    left: 6%;   
     color: white;
 }
 .iamWillionair{
-    font-size: 32px;
+    font-size: 2em;
     position: relative;
-    top: 250px;
-    left: 80px; 
+    top: 40%;
+    left: 6%; 
     color: var(--gold);
 }
 /*second section*/
@@ -75,10 +79,10 @@ ul li a{
 }
 .person1Img{
     position: absolute;
-    left: 20px;
-    top: -70px;
-    width: 600px;
-    height: 800px;  
+    left: 2%;
+    top: 5%;
+    width: 40%;
+    height: 110%;  
 }
 /*third section*/
 .thirdContainer{
@@ -89,29 +93,37 @@ ul li a{
 .videoH1{
    color: white;
    position: relative;
-   top: 20px;
+   top: 2%;
    text-align: center;
-   font-size: 36px;
+   font-size: 3em;
 }
 .iframe1{
     position: absolute;
-    bottom: -920px;
-    left: 300px;
+    bottom: -150%;
+    left: 22%;
+    height: 34%;
+    width: 27%;
 }
 .iframe2{
     position: absolute;
-    bottom: -920px;
-    left: 700px;
+    bottom: -150%;
+    left: 53%;
+    height: 34%;
+    width: 27%;
 }
 .iframe3{
     position: absolute;
-    bottom: -1180px;
-    left: 300px;
+    bottom: -190%;
+    left: 22%;
+    height: 34%;
+    width: 27%;
 }
 .iframe4{
     position: absolute;
-    bottom: -1180px;
-    left: 700px;
+    bottom: -190%;
+    left: 53%;
+    height: 34%;
+    width: 27%;
 }
 .divFooter{
     position: relative;
@@ -122,19 +134,21 @@ ul li a{
 .studioMan{
     border-radius: 40px;
     position: relative;
-    top: 40px;
-    left: 500px;   
+    top: 4%;
+    left: 35%;
+    width: 53%;
+    height: 90%;   
     filter: brightness(50%);
 }
 .glassDrop{
     padding: 30px;
     position: absolute;
-    top: 40px;
-    left: 500px;
+    top: 4%;
+    left: 35%;
+    width: 53%;
+    height: 90%;
     border: 1px solid white;
     border-radius: 40px;
-    width: 720px;
-    height: 550px;
     -webkit-backdrop-filter: blur(8px);  
     backdrop-filter: blur(8px); 
     box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
@@ -146,89 +160,47 @@ ul li a{
 }
 .willFooter{
     position: absolute; 
-    right: -59px;
-    bottom: 0px;
-    width: 350px;
-    height: 350px; 
+    right: -6%;
+    bottom: 0%;
+    width: 30%;
+    height: 130%; 
 }
 .facebook-logo{
     position: relative;
-    left: 580px;
-    top: 110px;
+    left: 40%;
+    top: 40%;
 }
 .instagram-logo{
     position: relative;
-    left: 610px;
-    top: 110px;
+    left: 45%;
+    top: 40%;
 }
 .youtube-logo{
     position: relative;
-    left: 640px;
-    top: 110px;
+    left: 50%;
+    top: 40%;
 }
 .rightTxt{
     position: absolute;
-    left: 530px;
-    bottom: 25px;
+    left: 40%;
+    bottom: 9%;
     color: white;
 }
 
 @media only screen and (min-width: 1269px) and (max-width:1319px){
     .transparentLogo{
+        width: 25%;
+        height: 45%;
         position: absolute;
-        bottom: 440px;
-    }
-    ul li{
-        padding-left: 50px;
-        position: relative;
-        right: -650px;
-        top: 40px;
-    }
-
-    /*second section*/
-    .person1Img{
-        position: absolute;
-        left: 20px;
-        top: -90px; 
-    }
-    /*third section*/
-
-    .facebook-logo{
-        position: relative;
-        left: 580px;
-        top: 110px;
-    }
-    .instagram-logo{
-        position: relative;
-        left: 610px;
-        top: 110px;
-    }
-    .youtube-logo{
-        position: relative;
-        left: 640px;
-        top: 110px;
-    }
-    .rightTxt{
-        position: absolute;
-        left: 530px;
-        bottom: 25px;
-        color: white;
-    }
-}
-@media only screen and (min-width: 1151px) and (max-width:1268px){
-   
-    .transparentLogo{
-        width: 200px;
-        height: 200px;
-        position: absolute;
-        bottom: 440px;
+        bottom: 65%;
     }
     ul li{
         display: inline-block;
-        padding-left: 80px;
+        padding-left: 60px;
         position: relative;
-        right: -350px;
+        right: -500px;
         top: 40px;
+        cursor: pointer;
     }
     ul li a{
         text-decoration: none;
@@ -241,35 +213,45 @@ ul li a{
     }
     .person5Img{
         position: absolute; 
-        right: -162px;
-        bottom: -0px;
+        right: -13%;
+        bottom: -0%;
+        width: 30%;
+        height: 80%;
     }
     .person6Img{
         position: absolute;
-        right: 10px;
-        bottom: -0px;
+        right: 5%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
     }
     .captionTXT{
-        font-size: 27px;
+        font-size: 2em;
         position: relative;
-        top: 230px;
-        left: 80px;   
+        top: 35%;
+        left: 6%;   
         color: white;
     }
     .iamWillionair{
-        font-size: 32px;
+        font-size: 2em;
         position: relative;
-        top: 250px;
-        left: 80px; 
+        top: 40%;
+        left: 6%; 
         color: var(--gold);
     }
     /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
     .person1Img{
         position: absolute;
-        left: -20px;
-        top: -70px;
-        width: 600px;
-        height: 800px;  
+        left: 2%;
+        top: 5%;
+        width: 40%;
+        height: 110%;  
     }
     /*third section*/
     .thirdContainer{
@@ -280,29 +262,37 @@ ul li a{
     .videoH1{
        color: white;
        position: relative;
-       top: 20px;
+       top: 2%;
        text-align: center;
-       font-size: 36px;
+       font-size: 3em;
     }
     .iframe1{
         position: absolute;
-        bottom: -920px;
-        left: 200px;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe2{
         position: absolute;
-        bottom: -920px;
-        left: 600px;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .iframe3{
         position: absolute;
-        bottom: -1180px;
-        left: 200px;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe4{
         position: absolute;
-        bottom: -1180px;
-        left: 600px;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .divFooter{
         position: relative;
@@ -313,221 +303,582 @@ ul li a{
     .studioMan{
         border-radius: 40px;
         position: relative;
-        top: 40px;
-        left: 500px; 
-        width: 600px;  
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 90%;   
         filter: brightness(50%);
     }
     .glassDrop{
         padding: 30px;
         position: absolute;
-        top: 40px;
-        left: 500px;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 90%;
         border: 1px solid white;
         border-radius: 40px;
-        width: 600px;
-        height: 450px;
         -webkit-backdrop-filter: blur(8px);  
         backdrop-filter: blur(8px); 
         box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
         background-color: rgba(228 ,228 ,228 ,0.10);
     }
     .h2story{
-        font-size: 3.0vh;
+        font-size: 3.6vh;
         color: white;
     }
     .willFooter{
         position: absolute; 
-        right: -59px;
-        bottom: 0px;
-        width: 250px;
-        height: 250px; 
+        right: -6%;
+        bottom: 0%;
+        width: 30%;
+        height: 130%; 
     }
     .facebook-logo{
         position: relative;
-        left: 480px;
-        top: 110px;
+        left: 40%;
+        top: 40%;
     }
     .instagram-logo{
         position: relative;
-        left: 510px;
-        top: 110px;
+        left: 45%;
+        top: 40%;
     }
     .youtube-logo{
         position: relative;
-        left: 540px;
-        top: 110px;
+        left: 50%;
+        top: 40%;
     }
     .rightTxt{
         position: absolute;
-        left: 440px;
-        bottom: 25px;
+        left: 40%;
+        bottom: 9%;
         color: white;
     }
 }
-@media only screen and (min-width: 1100px) and (max-width: 1151px){
+@media only screen and (min-width: 1151px) and (max-width:1268px){
     .transparentLogo{
-        width: 150px;
-        height: 150px;
+        width: 25%;
+        height: 45%;
         position: absolute;
-        bottom: 480px;
-    }
-    ul li{
-        display: inline-block;
-        padding-left: 80px;
-        position: relative;
-        right: -350px;
-        top: 40px;
-    }
-    ul li a{
-        text-decoration: none;
-        font-size: 15px;
-        color: white;
-        border: 1px solid var(--gold);
-        padding: 10px;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    .person5Img{
-        position: absolute; 
-        right: -162px;
-        bottom: -0px;
-    }
-    .person6Img{
-        position: absolute;
-        right: 10px;
-        bottom: -0px;
-    }
-    .captionTXT{
-        font-size: 25px;
-        position: relative;
-        top: 230px;
-        left: 80px;   
-        color: white;
-    }
-    .iamWillionair{
-        font-size: 32px;
-        position: relative;
-        top: 250px;
-        left: 80px; 
-        color: var(--gold);
-    }
-    /*second section*/
-    .person1Img{
-        position: absolute;
-        left: -20px;
-        top: -70px;
-        width: 600px;
-        height: 800px;  
-    }
-    /*third section*/
-    .thirdContainer{
-       background-color: #777777;
-       width: 100%;
-       height: 100vh;
-    }
-    .videoH1{
-       color: white;
-       position: relative;
-       top: 20px;
-       text-align: center;
-       font-size: 36px;
-    }
-    .iframe1{
-        position: absolute;
-        bottom: -920px;
-        left: 150px;
-    }
-    .iframe2{
-        position: absolute;
-        bottom: -920px;
-        left: 550px;
-    }
-    .iframe3{
-        position: absolute;
-        bottom: -1180px;
-        left: 150px;
-    }
-    .iframe4{
-        position: absolute;
-        bottom: -1180px;
-        left: 550px;
-    }
-    .divFooter{
-        position: relative;
-        width: 100%;
-        height: 40vh;
-        background-color: var(--blue);   
-    }
-    .studioMan{
-        border-radius: 40px;
-        position: relative;
-        top: 40px;
-        left: 400px; 
-        width: 600px;  
-        filter: brightness(50%);
-    }
-    .glassDrop{
-        padding: 30px;
-        position: absolute;
-        top: 40px;
-        left: 400px;
-        border: 1px solid white;
-        border-radius: 40px;
-        width: 600px;
-        height: 450px;
-        -webkit-backdrop-filter: blur(8px);  
-        backdrop-filter: blur(8px); 
-        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
-        background-color: rgba(228 ,228 ,228 ,0.10);
-    }
-    .h2story{
-        font-size: 3.0vh;
-        color: white;
-    }
-    .willFooter{
-        position: absolute; 
-        right: -59px;
-        bottom: 0px;
-        width: 250px;
-        height: 250px; 
-    }
-    .facebook-logo{
-        position: relative;
-        left: 480px;
-        top: 110px;
-    }
-    .instagram-logo{
-        position: relative;
-        left: 510px;
-        top: 110px;
-    }
-    .youtube-logo{
-        position: relative;
-        left: 540px;
-        top: 110px;
-    }
-    .rightTxt{
-        position: absolute;
-        left: 440px;
-        bottom: 25px;
-        color: white;
-    } 
-}
-/*large devices like laptops*/
-@media only screen and (min-width: 992px) and (max-width: 1099px){
-    .transparentLogo{
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        bottom: 480px;
+        bottom: 65%;
     }
     ul li{
         display: inline-block;
         padding-left: 60px;
         position: relative;
-        right: -250px;
+        right: -450px;
         top: 40px;
+        cursor: pointer;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -13%;
+        bottom: -0%;
+        width: 30%;
+        height: 70%;
+    }
+    .person6Img{
+        position: absolute;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
+    }
+    .captionTXT{
+        font-size: 2em;
+        position: relative;
+        top: 35%;
+        left: 6%;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 2em;
+        position: relative;
+        top: 40%;
+        left: 6%; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
+    .person1Img{
+        position: absolute;
+        left: 2%;
+        top: 5%;
+        width: 40%;
+        height: 110%;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 2%;
+       text-align: center;
+       font-size: 3em;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 90%;   
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 90%;
+        border: 1px solid white;
+        border-radius: 40px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 3.2vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -6%;
+        bottom: 0%;
+        width: 30%;
+        height: 130%; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 40%;
+        top: 40%;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 45%;
+        top: 40%;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 50%;
+        top: 40%;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 40%;
+        bottom: 9%;
+        color: white;
+    }   
+}
+@media only screen and (min-width: 1100px) and (max-width: 1150px){
+    .transparentLogo{
+        width: 25%;
+        height: 45%;
+        position: absolute;
+        bottom: 65%;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 60px;
+        position: relative;
+        right: -400px;
+        top: 40px;
+        cursor: pointer;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -13%;
+        bottom: -0%;
+        width: 30%;
+        height: 70%;
+    }
+    .person6Img{
+        position: absolute;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
+    }
+    .captionTXT{
+        font-size: 2em;
+        position: relative;
+        top: 35%;
+        left: 6%;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 2em;
+        position: relative;
+        top: 40%;
+        left: 6%; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
+    .person1Img{
+        position: absolute;
+        left: 2%;
+        top: 5%;
+        width: 40%;
+        height: 110%;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 2%;
+       text-align: center;
+       font-size: 3em;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 90%;   
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 90%;
+        border: 1px solid white;
+        border-radius: 40px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 3.2vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -6%;
+        bottom: 0%;
+        width: 30%;
+        height: 130%; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 40%;
+        top: 40%;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 45%;
+        top: 40%;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 50%;
+        top: 40%;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 40%;
+        bottom: 9%;
+        color: white;
+    }
+}
+/*large devices like laptops*/
+@media only screen and (min-width: 992px) and (max-width: 1099px){
+    .transparentLogo{
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        bottom: 75%;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 60px;
+        position: relative;
+        right: -300px;
+        top: 40px;
+        cursor: pointer;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -12%;
+        bottom: -0%;
+        width: 30%;
+        height: 70%;
+    }
+    .person6Img{
+        position: absolute;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
+    }
+    .captionTXT{
+        font-size: 1.9em;
+        position: relative;
+        top: 35%;
+        left: 6%;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 2em;
+        position: relative;
+        top: 40%;
+        left: 6%; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
+    .person1Img{
+        position: absolute;
+        left: 2%;
+        top: 5%;
+        width: 40%;
+        height: 110%;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 2%;
+       text-align: center;
+       font-size: 3em;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 90%;   
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 90%;
+        border: 1px solid white;
+        border-radius: 40px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 3.2vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -6%;
+        bottom: 0%;
+        width: 30%;
+        height: 130%; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 40%;
+        top: 40%;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 45%;
+        top: 40%;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 50%;
+        top: 40%;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 40%;
+        bottom: 9%;
+        color: white;
+    }
+}   
+/*medium phones*/
+@media only screen and (min-width: 805px) and (max-width: 991px){
+    .transparentLogo{
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        bottom: 75%;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 60px;
+        position: relative;
+        right: -150px;
+        top: 40px;
+        cursor: pointer;
     }
     ul li a{
         text-decoration: none;
@@ -540,35 +891,45 @@ ul li a{
     }
     .person5Img{
         position: absolute; 
-        right: -162px;
-        bottom: -0px;
+        right: -14%;
+        bottom: -0%;
+        width: 35%;
+        height: 70%;
     }
     .person6Img{
         position: absolute;
-        right: 10px;
-        bottom: -0px;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
     }
     .captionTXT{
-        font-size: 21px;
+        font-size: 1.8em;
         position: relative;
-        top: 230px;
-        left: 80px;   
+        top: 35%;
+        left: 6%;   
         color: white;
     }
     .iamWillionair{
-        font-size: 25px;
+        font-size: 2em;
         position: relative;
-        top: 250px;
-        left: 80px; 
+        top: 40%;
+        left: 6%; 
         color: var(--gold);
     }
     /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
     .person1Img{
         position: absolute;
-        left: -20px;
-        top: -70px;
-        width: 600px;
-        height: 800px;  
+        left: 2%;
+        top: 30%;
+        width: 40%;
+        height: 80%;  
     }
     /*third section*/
     .thirdContainer{
@@ -579,29 +940,37 @@ ul li a{
     .videoH1{
        color: white;
        position: relative;
-       top: 20px;
+       top: 2%;
        text-align: center;
-       font-size: 36px;
+       font-size: 3em;
     }
     .iframe1{
         position: absolute;
-        bottom: -920px;
-        left: 100px;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe2{
         position: absolute;
-        bottom: -920px;
-        left: 500px;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .iframe3{
         position: absolute;
-        bottom: -1180px;
-        left: 100px;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe4{
         position: absolute;
-        bottom: -1180px;
-        left: 500px;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .divFooter{
         position: relative;
@@ -612,73 +981,73 @@ ul li a{
     .studioMan{
         border-radius: 40px;
         position: relative;
-        top: 90px;
-        left: 400px; 
-        width: 500px;  
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 70%;   
         filter: brightness(50%);
     }
     .glassDrop{
         padding: 30px;
         position: absolute;
-        top: 90px;
-        left: 400px;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 70%;
         border: 1px solid white;
         border-radius: 40px;
-        width: 500px;
-        height: 400px;
         -webkit-backdrop-filter: blur(8px);  
         backdrop-filter: blur(8px); 
         box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
         background-color: rgba(228 ,228 ,228 ,0.10);
     }
     .h2story{
-        font-size: 2.6vh;
+        font-size: 2.5vh;
         color: white;
     }
     .willFooter{
         position: absolute; 
-        right: -49px;
-        bottom: 0px;
-        width: 250px;
-        height: 250px; 
+        right: -6%;
+        bottom: 0%;
+        width: 30%;
+        height: 130%; 
     }
     .facebook-logo{
         position: relative;
-        left: 380px;
-        top: 110px;
+        left: 40%;
+        top: 40%;
     }
     .instagram-logo{
         position: relative;
-        left: 410px;
-        top: 110px;
+        left: 45%;
+        top: 40%;
     }
     .youtube-logo{
         position: relative;
-        left: 440px;
-        top: 110px;
+        left: 50%;
+        top: 40%;
     }
     .rightTxt{
         position: absolute;
-        left: 350px;
-        bottom: 25px;
+        left: 40%;
+        bottom: 9%;
         color: white;
-    } 
+    }
 }
-    
-/*medium phones*/
-@media only screen and (min-width: 805px) and (max-width: 991px){
+@media only screen and (min-width: 750px) and (max-width: 804px){
     .transparentLogo{
-        width: 150px;
-        height: 150px;
+        width: 25%;
+        height: 30%;
         position: absolute;
-        bottom: 480px;
+        bottom: 75%;
     }
     ul li{
         display: inline-block;
-        padding-left: 40px;
+        padding-left: 60px;
         position: relative;
-        right: -250px;
+        right: -150px;
         top: 40px;
+        cursor: pointer;
     }
     ul li a{
         text-decoration: none;
@@ -691,39 +1060,45 @@ ul li a{
     }
     .person5Img{
         position: absolute; 
-        right: -162px;
-        width: 400px;
-        height: 500px;
-        bottom: -0px;
+        right: -15%;
+        bottom: -0%;
+        width: 39%;
+        height: 70%;
     }
     .person6Img{
-        width: 500px;
-        height: 450px;
         position: absolute;
-        right: -1000px;
-        bottom: -0px;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
     }
     .captionTXT{
-        font-size: 21px;
+        font-size: 1.6em;
         position: relative;
-        top: 230px;
-        left: 80px;   
+        top: 35%;
+        left: 6%;   
         color: white;
     }
     .iamWillionair{
-        font-size: 25px;
+        font-size: 2em;
         position: relative;
-        top: 250px;
-        left: 80px; 
+        top: 40%;
+        left: 6%; 
         color: var(--gold);
     }
     /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
     .person1Img{
         position: absolute;
-        left: -20px;
-        top: 140px;
-        width: 450px;
-        height: 550px;  
+        left: 2%;
+        top: 30%;
+        width: 40%;
+        height: 80%;  
     }
     /*third section*/
     .thirdContainer{
@@ -734,33 +1109,37 @@ ul li a{
     .videoH1{
        color: white;
        position: relative;
-       top: 20px;
+       top: 2%;
        text-align: center;
-       font-size: 36px;
+       font-size: 3em;
     }
     .iframe1{
         position: absolute;
-        bottom: -920px;
-        left: 50px;
-        width: 300px;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe2{
         position: absolute;
-        bottom: -920px;
-        left: 450px;
-        width: 300px;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .iframe3{
         position: absolute;
-        bottom: -1180px;
-        left: 50px;
-        width: 300px;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe4{
         position: absolute;
-        bottom: -1180px;
-        left: 450px;
-        width: 300px;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .divFooter{
         position: relative;
@@ -771,64 +1150,65 @@ ul li a{
     .studioMan{
         border-radius: 40px;
         position: relative;
-        top: 90px;
-        left: 250px; 
-        width: 500px;  
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 70%;   
         filter: brightness(50%);
     }
     .glassDrop{
         padding: 30px;
         position: absolute;
-        top: 90px;
-        left: 250px;
+        top: 4%;
+        left: 35%;
+        width: 53%;
+        height: 70%;
         border: 1px solid white;
         border-radius: 40px;
-        width: 500px;
-        height: 400px;
         -webkit-backdrop-filter: blur(8px);  
         backdrop-filter: blur(8px); 
         box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
         background-color: rgba(228 ,228 ,228 ,0.10);
     }
     .h2story{
-        font-size: 2.6vh;
+        font-size: 2.5vh;
         color: white;
     }
     .willFooter{
         position: absolute; 
-        right: -49px;
-        bottom: 0px;
-        width: 250px;
-        height: 250px; 
+        right: -6%;
+        bottom: 0%;
+        width: 30%;
+        height: 130%; 
     }
     .facebook-logo{
         position: relative;
-        left: 280px;
-        top: 110px;
+        left: 30%;
+        top: 40%;
     }
     .instagram-logo{
         position: relative;
-        left: 310px;
-        top: 110px;
+        left: 35%;
+        top: 40%;
     }
     .youtube-logo{
         position: relative;
-        left: 340px;
-        top: 110px;
+        left: 40%;
+        top: 40%;
     }
     .rightTxt{
         position: absolute;
-        left: 250px;
-        bottom: 25px;
+        left: 27%;
+        bottom: 9%;
         color: white;
     }
 }
-@media only screen and (min-width: 750px) and (max-width: 804px){
+@media only screen and (min-width: 680px) and (max-width: 749px){
     .transparentLogo{
-        width: 150px;
-        height: 150px;
+        width: 25%;
+        height: 30%;
         position: absolute;
-        bottom: 480px;
+        bottom: 75%;
     }
     ul li{
         display: inline-block;
@@ -836,6 +1216,7 @@ ul li a{
         position: relative;
         right: -150px;
         top: 40px;
+        cursor: pointer;
     }
     ul li a{
         text-decoration: none;
@@ -848,35 +1229,45 @@ ul li a{
     }
     .person5Img{
         position: absolute; 
-        right: -162px;
-        bottom: -0px;
+        right: -16%;
+        bottom: -0%;
+        width: 42%;
+        height: 70%;
     }
     .person6Img{
         position: absolute;
-        right: 1000px;
-        bottom: -0px;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
     }
     .captionTXT{
-        font-size: 21px;
+        font-size: 1.6em;
         position: relative;
-        top: 230px;
-        left: 80px;   
+        top: 35%;
+        left: 6%;   
         color: white;
     }
     .iamWillionair{
-        font-size: 25px;
+        font-size: 2em;
         position: relative;
-        top: 250px;
-        left: 80px; 
+        top: 40%;
+        left: 6%; 
         color: var(--gold);
     }
     /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
     .person1Img{
         position: absolute;
-        left: -20px;
-        top: 130px;
-        width: 450px;
-        height: 550px;  
+        left: 2%;
+        top: 30%;
+        width: 40%;
+        height: 80%;  
     }
     /*third section*/
     .thirdContainer{
@@ -887,37 +1278,37 @@ ul li a{
     .videoH1{
        color: white;
        position: relative;
-       top: 20px;
+       top: 2%;
        text-align: center;
-       font-size: 36px;
+       font-size: 3em;
     }
     .iframe1{
         position: absolute;
-        bottom: -920px;
-        left: 100px;
-        max-width: 400px;
-        width: 250px;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe2{
         position: absolute;
-        bottom: -920px;
-        left: 400px;
-        max-width: 400px;
-        width: 250px;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .iframe3{
         position: absolute;
-        bottom: -1180px;
-        left: 100px;
-        max-width: 400px;
-        width: 250px;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe4{
         position: absolute;
-        bottom: -1180px;
-        left: 400px;
-        max-width: 400px;
-        width: 250px;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .divFooter{
         position: relative;
@@ -928,390 +1319,73 @@ ul li a{
     .studioMan{
         border-radius: 40px;
         position: relative;
-        top: 90px;
-        left: 250px; 
-        width: 400px;  
+        top: 4%;
+        left: 35%;
+        width: 60%;
+        height: 70%;   
         filter: brightness(50%);
     }
     .glassDrop{
         padding: 30px;
         position: absolute;
-        top: 90px;
-        left: 250px;
+        top: 4%;
+        left: 35%;
+        width: 60%;
+        height: 70%;
         border: 1px solid white;
         border-radius: 40px;
-        width: 400px;
-        height: 300px;
         -webkit-backdrop-filter: blur(8px);  
         backdrop-filter: blur(8px); 
         box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
         background-color: rgba(228 ,228 ,228 ,0.10);
     }
     .h2story{
-        font-size: 2.0vh;
+        font-size: 2.5vh;
         color: white;
     }
     .willFooter{
         position: absolute; 
-        right: -49px;
-        bottom: 0px;
-        width: 250px;
-        height: 250px; 
+        right: -6%;
+        bottom: 0%;
+        width: 30%;
+        height: 120%; 
     }
     .facebook-logo{
         position: relative;
-        left: 280px;
-        top: 110px;
+        left: 30%;
+        top: 40%;
     }
     .instagram-logo{
         position: relative;
-        left: 310px;
-        top: 110px;
+        left: 35%;
+        top: 40%;
     }
     .youtube-logo{
         position: relative;
-        left: 340px;
-        top: 110px;
+        left: 40%;
+        top: 40%;
     }
     .rightTxt{
         position: absolute;
-        left: 250px;
-        bottom: 25px;
+        left: 27%;
+        bottom: 9%;
         color: white;
     }
 }
-@media only screen and (min-width: 680px) and (max-width: 750px){
+@media only screen and (min-width: 600px) and (max-width: 679px){
     .transparentLogo{
-        width: 150px;
-        height: 150px;
+        width: 30%;
+        height: 30%;
         position: absolute;
-        bottom: 480px;
+        bottom: 75%;
     }
     ul li{
         display: inline-block;
-        padding-left: 30px;
+        padding-left: 40px;
         position: relative;
-        right: -170px;
+        right: -150px;
         top: 40px;
-    }
-    ul li a{
-        text-decoration: none;
-        font-size: 12px;
-        color: white;
-        border: 1px solid var(--gold);
-        padding: 10px;
-        border-radius: 10px;
         cursor: pointer;
-    }
-    .person5Img{
-        position: absolute; 
-        right: -162px;
-        bottom: -0px;
-        width: 400px;
-        height: 500px;
-    }
-    .person6Img{
-        position: absolute;
-        right: 1000px;
-        bottom: -0px;
-    }
-    .captionTXT{
-        font-size: 21px;
-        position: relative;
-        top: 230px;
-        left: 60px;   
-        color: white;
-    }
-    .iamWillionair{
-        font-size: 25px;
-        position: relative;
-        top: 250px;
-        left: 60px; 
-        color: var(--gold);
-    }
-    /*second section*/
-    .person1Img{
-        position: absolute;
-        left: -20px;
-        top: 130px;
-        width: 450px;
-        height: 550px;  
-    }
-    /*third section*/
-    .thirdContainer{
-       background-color: #777777;
-       width: 100%;
-       height: 100vh;
-    }
-    .videoH1{
-       color: white;
-       position: relative;
-       top: 20px;
-       text-align: center;
-       font-size: 36px;
-    }
-    .iframe1{
-        position: absolute;
-        bottom: -920px;
-        left: 80px;
-        max-width: 400px;
-        width: 250px;
-    }
-    .iframe2{
-        position: absolute;
-        bottom: -920px;
-        left: 350px;
-        max-width: 400px;
-        width: 250px;
-    }
-    .iframe3{
-        position: absolute;
-        bottom: -1180px;
-        left: 80px;
-        max-width: 400px;
-        width: 250px;
-    }
-    .iframe4{
-        position: absolute;
-        bottom: -1180px;
-        left: 350px;
-        max-width: 400px;
-        width: 250px;
-    }
-    .divFooter{
-        position: relative;
-        width: 100%;
-        height: 40vh;
-        background-color: var(--blue);   
-    }
-    .studioMan{
-        border-radius: 40px;
-        position: relative;
-        top: 130px;
-        left: 250px; 
-        width: 400px;  
-        filter: brightness(50%);
-    }
-    .glassDrop{
-        padding: 30px;
-        position: absolute;
-        top: 130px;
-        left: 250px;
-        border: 1px solid white;
-        border-radius: 40px;
-        width: 400px;
-        height: 300px;
-        -webkit-backdrop-filter: blur(8px);  
-        backdrop-filter: blur(8px); 
-        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
-        background-color: rgba(228 ,228 ,228 ,0.10);
-    }
-    .h2story{
-        font-size: 2.0vh;
-        color: white;
-    }
-    .willFooter{
-        position: absolute; 
-        right: -49px;
-        bottom: 0px;
-        width: 250px;
-        height: 250px; 
-    }
-    .facebook-logo{
-        position: relative;
-        left: 180px;
-        top: 110px;
-    }
-    .instagram-logo{
-        position: relative;
-        left: 210px;
-        top: 110px;
-    }
-    .youtube-logo{
-        position: relative;
-        left: 240px;
-        top: 110px;
-    }
-    .rightTxt{
-        position: absolute;
-        left: 150px;
-        bottom: 25px;
-        color: white;
-    }
-}@media only screen and (min-width: 600px) and (max-width: 680px){
-    .transparentLogo{
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        bottom: 480px;
-    }
-    ul li{
-        display: inline-block;
-        padding-left: 30px;
-        position: relative;
-        right: -140px;
-        top: 40px;
-    }
-    ul li a{
-        text-decoration: none;
-        font-size: 12px;
-        color: white;
-        border: 1px solid var(--gold);
-        padding: 10px;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-    .person5Img{
-        position: absolute; 
-        right: -162px;
-        bottom: -0px;
-        width: 400px;
-        height: 500px;
-    }
-    .person6Img{
-        position: absolute;
-        right: 1000px;
-        bottom: -0px;
-    }
-    .captionTXT{
-        font-size: 21px;
-        position: relative;
-        top: 230px;
-        left: 60px;   
-        color: white;
-    }
-    .iamWillionair{
-        font-size: 25px;
-        position: relative;
-        top: 250px;
-        left: 60px; 
-        color: var(--gold);
-    }
-    /*second section*/
-    .person1Img{
-        position: absolute;
-        left: -2000px;
-        top: 130px;
-        width: 450px;
-        height: 550px;  
-    }
-    /*third section*/
-    .thirdContainer{
-       background-color: #777777;
-       width: 100%;
-       height: 100vh;
-    }
-    .videoH1{
-       color: white;
-       position: relative;
-       top: 20px;
-       text-align: center;
-       font-size: 36px;
-    }
-    .iframe1{
-        position: absolute;
-        bottom: -920px;
-        left: 80px;
-        max-width: 400px;
-        width: 200px;
-    }
-    .iframe2{
-        position: absolute;
-        bottom: -920px;
-        left: 350px;
-        max-width: 400px;
-        width: 200px;
-    }
-    .iframe3{
-        position: absolute;
-        bottom: -1180px;
-        left: 80px;
-        max-width: 400px;
-        width: 200px;
-    }
-    .iframe4{
-        position: absolute;
-        bottom: -1180px;
-        left: 350px;
-        max-width: 400px;
-        width: 200px;
-    }
-    .divFooter{
-        position: relative;
-        width: 100%;
-        height: 40vh;
-        background-color: var(--blue);   
-    }
-    .studioMan{
-        border-radius: 40px;
-        position: relative;
-        top: 50px;
-        left: 100px; 
-        width: 400px;
-        height: 500px;  
-        filter: brightness(50%);
-    }
-    .glassDrop{
-        padding: 30px;
-        position: absolute;
-        top: 50px;
-        left: 100px;
-        border: 1px solid white;
-        border-radius: 40px;
-        width: 400px;
-        height: 500px;
-        -webkit-backdrop-filter: blur(8px);  
-        backdrop-filter: blur(8px); 
-        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
-        background-color: rgba(228 ,228 ,228 ,0.10);
-    }
-    .h2story{
-        font-size: 2.7vh;
-        color: white;
-    }
-    .willFooter{
-        position: absolute; 
-        right: -49px;
-        bottom: 0px;
-        width: 250px;
-        height: 250px; 
-    }
-    .facebook-logo{
-        position: relative;
-        left: 180px;
-        top: 110px;
-    }
-    .instagram-logo{
-        position: relative;
-        left: 210px;
-        top: 110px;
-    }
-    .youtube-logo{
-        position: relative;
-        left: 240px;
-        top: 110px;
-    }
-    .rightTxt{
-        position: absolute;
-        left: 150px;
-        bottom: 25px;
-        color: white;
-    }
-}
-/*extra small devices*/
-@media only screen and (min-width: 550px) and (max-width: 599px){
-    .transparentLogo{
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        bottom: 480px;
-    }
-    ul li{
-        display: inline-block;
-        padding-left: 30px;
-        position: relative;
-        right: -140px;
-        top: 40px;
     }
     ul li a{
         text-decoration: none;
@@ -1324,37 +1398,45 @@ ul li a{
     }
     .person5Img{
         position: absolute; 
-        right: -162px;
-        bottom: -0px;
-        width: 400px;
-        height: 500px;
+        right: -18%;
+        bottom: -0%;
+        width: 46%;
+        height: 70%;
     }
     .person6Img{
         position: absolute;
-        right: 1000px;
-        bottom: -0px;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
     }
     .captionTXT{
-        font-size: 18px;
+        font-size: 1.3em;
         position: relative;
-        top: 230px;
-        left: 60px;   
+        top: 35%;
+        left: 6%;   
         color: white;
     }
     .iamWillionair{
-        font-size: 25px;
+        font-size: 1.5em;
         position: relative;
-        top: 250px;
-        left: 60px; 
+        top: 40%;
+        left: 6%; 
         color: var(--gold);
     }
     /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
     .person1Img{
         position: absolute;
-        left: -2000px;
-        top: 130px;
-        width: 450px;
-        height: 550px;  
+        left: 2%;
+        top: 30%;
+        width: 45%;
+        height: 80%;  
     }
     /*third section*/
     .thirdContainer{
@@ -1365,37 +1447,37 @@ ul li a{
     .videoH1{
        color: white;
        position: relative;
-       top: 20px;
+       top: 2%;
        text-align: center;
-       font-size: 36px;
+       font-size: 3em;
     }
     .iframe1{
         position: absolute;
-        bottom: -920px;
-        left: 50px;
-        max-width: 400px;
-        width: 200px;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe2{
         position: absolute;
-        bottom: -920px;
-        left: 300px;
-        max-width: 400px;
-        width: 200px;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .iframe3{
         position: absolute;
-        bottom: -1180px;
-        left: 50px;
-        max-width: 400px;
-        width: 200px;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
     .iframe4{
         position: absolute;
-        bottom: -1180px;
-        left: 300px;
-        max-width: 400px;
-        width: 200px;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
     }
     .divFooter{
         position: relative;
@@ -1406,119 +1488,296 @@ ul li a{
     .studioMan{
         border-radius: 40px;
         position: relative;
-        top: 50px;
-        left: 70px; 
-        width: 400px;
-        height: 500px;  
+        top: 4%;
+        left: 35%;
+        width: 60%;
+        height: 70%;   
         filter: brightness(50%);
     }
     .glassDrop{
         padding: 30px;
         position: absolute;
-        top: 50px;
-        left: 70px;
+        top: 4%;
+        left: 35%;
+        width: 60%;
+        height: 70%;
         border: 1px solid white;
         border-radius: 40px;
-        width: 400px;
-        height: 500px;
         -webkit-backdrop-filter: blur(8px);  
         backdrop-filter: blur(8px); 
         box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
         background-color: rgba(228 ,228 ,228 ,0.10);
     }
     .h2story{
-        font-size: 2.7vh;
+        font-size: 2.3vh;
         color: white;
     }
     .willFooter{
         position: absolute; 
-        right: -49px;
-        bottom: 0px;
-        width: 250px;
-        height: 250px; 
+        right: -6%;
+        bottom: 0%;
+        width: 35%;
+        height: 120%; 
     }
     .facebook-logo{
         position: relative;
-        left: 150px;
-        top: 110px;
+        left: 30%;
+        top: 40%;
     }
     .instagram-logo{
         position: relative;
-        left: 200px;
-        top: 110px;
+        left: 35%;
+        top: 40%;
     }
     .youtube-logo{
         position: relative;
-        left: 240px;
-        top: 110px;
-        cursor: pointer;
+        left: 40%;
+        top: 40%;
     }
     .rightTxt{
         position: absolute;
-        left: 120px;
-        bottom: 25px;
+        left: 27%;
+        bottom: 9%;
+        color: white;
+    }
+}
+/*extra small devices*/
+@media only screen and (min-width: 550px) and (max-width: 599px){
+    .transparentLogo{
+        width: 30%;
+        height: 25%;
+        position: absolute;
+        left: -5%;
+        bottom: 79%;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 40px;
+        position: relative;
+        right: -120px;
+        top: 40px;
+        cursor: pointer;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 9px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -18%;
+        bottom: -0%;
+        width: 46%;
+        height: 70%;
+    }
+    .person6Img{
+        position: absolute;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
+    }
+    .captionTXT{
+        font-size: 1.3em;
+        position: relative;
+        top: 35%;
+        left: 6%;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 1.5em;
+        position: relative;
+        top: 40%;
+        left: 6%; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
+    .person1Img{
+        position: absolute;
+        left: 200%;
+        top: 30%;
+        width: 45%;
+        height: 80%;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 2%;
+       text-align: center;
+       font-size: 3em;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 15%;
+        left: 12%;
+        width: 80%;
+        height: 70%;   
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 15%;
+        left: 12%;
+        width: 80%;
+        height: 70%;
+        border: 1px solid white;
+        border-radius: 40px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.3vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -7%;
+        bottom: 0%;
+        width: 40%;
+        height: 120%; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 30%;
+        top: 40%;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 35%;
+        top: 40%;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 40%;
+        top: 40%;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 27%;
+        bottom: 9%;
         color: white;
     }
 }
 @media only screen and (min-width: 500px) and (max-width: 549px){
     .transparentLogo{
-        width: 150px;
-        height: 150px;
+        width: 30%;
+        height: 25%;
         position: absolute;
-        /*bottom: 480px;*/
-        top:-2%;
-        left:-5%;
-
+        left: -5%;
+        bottom: 79%;
     }
     ul li{
         display: inline-block;
         padding-left: 30px;
         position: relative;
-        right: -110px;
+        right: -120px;
         top: 40px;
+        cursor: pointer;
     }
     ul li a{
         text-decoration: none;
         font-size: 9px;
         color: white;
         border: 1px solid var(--gold);
-        padding: 10px;
+        padding: 7px;
         border-radius: 10px;
         cursor: pointer;
     }
     .person5Img{
         position: absolute; 
-        right: -25%;
+        right: -21%;
         bottom: -0%;
-        width: 300px;
-        height: 400px;
+        width: 53%; /*start here*/
+        height: 70%;
     }
     .person6Img{
         position: absolute;
-        right: 1000px;
-        bottom: -0px;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
     }
     .captionTXT{
-        font-size: 18px;
+        font-size: 1.3em;
         position: relative;
-        top: 230px;
-        left: 60px;   
+        top: 35%;
+        left: 6%;   
         color: white;
     }
     .iamWillionair{
-        font-size: 25px;
+        font-size: 1.5em;
         position: relative;
-        top: 250px;
-        left: 60px; 
+        top: 40%;
+        left: 6%; 
         color: var(--gold);
     }
     /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
     .person1Img{
         position: absolute;
-        left: -2000px;
-        top: 130px;
-        width: 450px;
-        height: 550px;  
+        left: 200%;
+        top: 30%;
+        width: 45%;
+        height: 80%;  
     }
     /*third section*/
     .thirdContainer{
@@ -1536,145 +1795,161 @@ ul li a{
     .iframe1{
         position: absolute;
         bottom: -150%;
-        left: 10%;
-        height: 35%;
-        max-width: 81%;
-        width: 400%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
- 
+    .iframe2{
+        position: absolute;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
     .iframe3{
         position: absolute;
         bottom: -190%;
-        left: 10%;
-        height: 35%;
-        max-width: 81%;
-        width: 400%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
-    
+    .iframe4{
+        position: absolute;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
     .divFooter{
         position: relative;
-        bottom: 0%;
         width: 100%;
-        height: 50vh;
+        height: 40vh;
         background-color: var(--blue);   
     }
     .studioMan{
         border-radius: 40px;
         position: relative;
-        top: 10%;
-        left: 10%; 
-        width: 84%;
-        height: 80%;  
+        top: 15%;
+        left: 12%;
+        width: 80%;
+        height: 70%;   
         filter: brightness(50%);
     }
     .glassDrop{
         padding: 30px;
         position: absolute;
-        top: 10%;
-        left: 10%;
+        top: 15%;
+        left: 12%;
+        width: 80%;
+        height: 70%;
         border: 1px solid white;
         border-radius: 40px;
-        width: 84%;
-        height: 80%; 
         -webkit-backdrop-filter: blur(8px);  
         backdrop-filter: blur(8px); 
         box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
         background-color: rgba(228 ,228 ,228 ,0.10);
     }
     .h2story{
-        font-size: 2.7vh;
+        font-size: 2.3vh;
         color: white;
     }
     .willFooter{
         position: absolute; 
-        right: -10%;
+        right: -7%;
         bottom: 0%;
-        width: 50%;
-        height: 100%; 
+        width: 40%;
+        height: 120%; 
     }
     .facebook-logo{
         position: relative;
-        left: 20%;
+        left: 30%;
         top: 40%;
     }
     .instagram-logo{
         position: relative;
-        left: 30%;
+        left: 35%;
         top: 40%;
     }
     .youtube-logo{
         position: relative;
         left: 40%;
         top: 40%;
-        cursor: pointer;
     }
     .rightTxt{
         position: absolute;
-        left: 90px;
-        bottom: 25px;
+        left: 23%;
+        bottom: 9%;
         color: white;
+        font-size: 0.9em;
     }
 }
 /*changes for responsive phone */
 @media only screen and (min-width: 450px) and (max-width: 499px){
     .transparentLogo{
-        width: 150px;
-        height: 150px;
+        width: 30%;
+        height: 25%;
         position: absolute;
-        /*bottom: 480px;*/
-        top:-2%;
-        left:-5%;
-
+        left: -5%;
+        bottom: 79%;
     }
     ul li{
         display: inline-block;
         padding-left: 30px;
         position: relative;
-        right: -110px;
+        right: -120px;
         top: 40px;
+        cursor: pointer;
     }
     ul li a{
         text-decoration: none;
         font-size: 9px;
         color: white;
         border: 1px solid var(--gold);
-        padding: 10px;
+        padding: 7px;
         border-radius: 10px;
         cursor: pointer;
     }
     .person5Img{
         position: absolute; 
-        right: -25%;
+        right: -21%;
         bottom: -0%;
-        width: 300px;
-        height: 400px;
+        width: 53%; /*start here*/
+        height: 70%;
     }
     .person6Img{
         position: absolute;
-        right: 1000px;
-        bottom: -0px;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
     }
     .captionTXT{
-        font-size: 18px;
+        font-size: 1.3em;
         position: relative;
-        top: 230px;
-        left: 60px;   
+        top: 35%;
+        left: 6%;   
         color: white;
     }
     .iamWillionair{
-        font-size: 25px;
+        font-size: 1.5em;
         position: relative;
-        top: 250px;
-        left: 60px; 
+        top: 40%;
+        left: 6%; 
         color: var(--gold);
     }
     /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
     .person1Img{
         position: absolute;
-        left: -2000px;
-        top: 130px;
-        width: 450px;
-        height: 550px;  
+        left: 200%;
+        top: 30%;
+        width: 45%;
+        height: 80%;  
     }
     /*third section*/
     .thirdContainer{
@@ -1692,82 +1967,262 @@ ul li a{
     .iframe1{
         position: absolute;
         bottom: -150%;
-        left: 10%;
-        height: 35%;
-        max-width: 81%;
-        width: 400%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
- 
+    .iframe2{
+        position: absolute;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
     .iframe3{
         position: absolute;
         bottom: -190%;
-        left: 10%;
-        height: 35%;
-        max-width: 81%;
-        width: 400%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
     }
-    
+    .iframe4{
+        position: absolute;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
     .divFooter{
         position: relative;
-        bottom: 0%;
         width: 100%;
-        height: 50vh;
+        height: 40vh;
         background-color: var(--blue);   
     }
     .studioMan{
         border-radius: 40px;
         position: relative;
-        top: 10%;
-        left: 10%; 
-        width: 84%;
-        height: 80%;  
+        top: 15%;
+        left: 12%;
+        width: 80%;
+        height: 70%;   
         filter: brightness(50%);
     }
     .glassDrop{
         padding: 30px;
         position: absolute;
-        top: 10%;
-        left: 10%;
+        top: 15%;
+        left: 12%;
+        width: 80%;
+        height: 70%;
         border: 1px solid white;
         border-radius: 40px;
-        width: 84%;
-        height: 80%; 
         -webkit-backdrop-filter: blur(8px);  
         backdrop-filter: blur(8px); 
         box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
         background-color: rgba(228 ,228 ,228 ,0.10);
     }
     .h2story{
-        font-size: 2.7vh;
+        font-size: 2.3vh;
         color: white;
     }
     .willFooter{
         position: absolute; 
-        right: -10%;
+        right: -7%;
         bottom: 0%;
-        width: 50%;
-        height: 100%; 
+        width: 40%;
+        height: 120%; 
     }
     .facebook-logo{
         position: relative;
-        left: 20%;
+        left: 30%;
         top: 40%;
     }
     .instagram-logo{
         position: relative;
-        left: 30%;
+        left: 35%;
         top: 40%;
     }
     .youtube-logo{
         position: relative;
         left: 40%;
         top: 40%;
-        cursor: pointer;
     }
     .rightTxt{
         position: absolute;
-        left: 90px;
-        bottom: 25px;
+        left: 23%;
+        bottom: 9%;
         color: white;
+        font-size: 0.9em;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 449px){
+    .transparentLogo{
+        width: 30%;
+        height: 25%;
+        position: absolute;
+        left: -5%;
+        bottom: 79%;
+    }
+    ul li{
+        display: inline-block;
+        padding-left: 30px;
+        position: relative;
+        right: -120px;
+        top: 40px;
+        cursor: pointer;
+    }
+    ul li a{
+        text-decoration: none;
+        font-size: 9px;
+        color: white;
+        border: 1px solid var(--gold);
+        padding: 7px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .person5Img{
+        position: absolute; 
+        right: -21%;
+        bottom: -0%;
+        width: 53%; /*start here*/
+        height: 70%;
+    }
+    .person6Img{
+        position: absolute;
+        right: 500%;
+        bottom: -0%;
+        width: 30%;
+        height: 60%;
+    }
+    .captionTXT{
+        font-size: 1.3em;
+        position: relative;
+        top: 35%;
+        left: 6%;   
+        color: white;
+    }
+    .iamWillionair{
+        font-size: 1.5em;
+        position: relative;
+        top: 40%;
+        left: 6%; 
+        color: var(--gold);
+    }
+    /*second section*/
+    .secondContainer{
+        width: 100%;
+        height: 100vh;
+        background-color: var(--blue);
+        position: relative;
+    }
+    .person1Img{
+        position: absolute;
+        left: 200%;
+        top: 30%;
+        width: 45%;
+        height: 80%;  
+    }
+    /*third section*/
+    .thirdContainer{
+       background-color: #777777;
+       width: 100%;
+       height: 100vh;
+    }
+    .videoH1{
+       color: white;
+       position: relative;
+       top: 2%;
+       text-align: center;
+       font-size: 3em;
+    }
+    .iframe1{
+        position: absolute;
+        bottom: -150%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe2{
+        position: absolute;
+        bottom: -150%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe3{
+        position: absolute;
+        bottom: -190%;
+        left: 22%;
+        height: 34%;
+        width: 27%;
+    }
+    .iframe4{
+        position: absolute;
+        bottom: -190%;
+        left: 53%;
+        height: 34%;
+        width: 27%;
+    }
+    .divFooter{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-color: var(--blue);   
+    }
+    .studioMan{
+        border-radius: 40px;
+        position: relative;
+        top: 15%;
+        left: 12%;
+        width: 80%;
+        height: 70%;   
+        filter: brightness(50%);
+    }
+    .glassDrop{
+        padding: 30px;
+        position: absolute;
+        top: 15%;
+        left: 12%;
+        width: 80%;
+        height: 70%;
+        border: 1px solid white;
+        border-radius: 40px;
+        -webkit-backdrop-filter: blur(8px);  
+        backdrop-filter: blur(8px); 
+        box-shadow: 0px 10px 15px 10px rgba(0 ,0 ,0 ,0.15);
+        background-color: rgba(228 ,228 ,228 ,0.10);
+    }
+    .h2story{
+        font-size: 2.3vh;
+        color: white;
+    }
+    .willFooter{
+        position: absolute; 
+        right: -7%;
+        bottom: 0%;
+        width: 40%;
+        height: 120%; 
+    }
+    .facebook-logo{
+        position: relative;
+        left: 30%;
+        top: 40%;
+    }
+    .instagram-logo{
+        position: relative;
+        left: 35%;
+        top: 40%;
+    }
+    .youtube-logo{
+        position: relative;
+        left: 40%;
+        top: 40%;
+    }
+    .rightTxt{
+        position: absolute;
+        left: 23%;
+        bottom: 9%;
+        color: white;
+        font-size: 0.9em;
     }
 }
